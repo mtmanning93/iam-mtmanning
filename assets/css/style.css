@@ -1,0 +1,15 @@
+/* ---------------------- NavBar */
+
+#brand {
+    text-decoration: none;
+    color: white;
+}
+
+#menu .nav .nav-item a {
+    color: white;
+}
+
+ul.nav .nav-item a:hover,
+#brand:hover {
+    color: #dea1ec !important;
+}
