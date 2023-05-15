@@ -1,18 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700;900&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,400&display=swap');
+
+/* ---------------------- Utils */
+
+
+
 /* ---------------------- Logo */
 
 #brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+}
+
+#brand-link {
     text-decoration: none;
     color: white;
 }
 
 /* ---------------------- Menu */
 
-#menu .nav .nav-item a {
+#menu .nav .nav-item a, a {
     color: white;
 }
 
 #menu .nav-item a:hover,
-#brand:hover {
+#brand:hover, a:hover {
     color: #dea1ec !important;
 }
 
@@ -30,19 +42,36 @@
 /* ---------------------- Main header */
 
 #hero-head {
-    background-image: url('/assets/images/glacier.jpg');
+    background-image: url('/assets/images/pano.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
 }
 
 #title {
-    color:black;
+    color: #ef9377;
     display: flex;
 }
 
 /* ---------------------- Info Cards */
 
-#hero-head #info>div:hover {
-    border-color: #ef9377;
+#info>div {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#info>div:hover {
+    border: 2px solid #ef9377;
+    transition: 500ms;
+}
+
+/* ---------------------- Footer */
+
+.footer-icons {
+    font-size: 1.5em;
+    color: white;
+}
+
+footer a {
+    margin: 0 5px;
 }
