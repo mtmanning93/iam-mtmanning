@@ -35,3 +35,14 @@
     background-size: cover;
     background-position: bottom;
 }
+
+#title {
+    color:black;
+    display: flex;
+}
+
+/* ---------------------- Info Cards */
+
+#hero-head #info>div:hover {
+    border-color: #ef9377;
+}
