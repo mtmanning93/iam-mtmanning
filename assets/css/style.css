@@ -19,6 +19,15 @@
 
 /* ---------------------- Menu */
 
+header {
+    border-bottom: 1px solid white;
+}
+
+header:hover {
+    border-bottom: 1px solid #ef9377;
+    transition: 500ms;
+}
+
 #menu .nav .nav-item a, a {
     color: white;
 }
