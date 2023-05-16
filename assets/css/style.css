@@ -72,7 +72,7 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #212529;
 }
 
 #title {
@@ -122,7 +122,7 @@ a:hover {
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
-    color: #fafafa;
+    color: #212529;
     border-left: 1px solid #ef9377;
 }
 
