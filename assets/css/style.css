@@ -11,7 +11,7 @@ h6 {
     font-weight: 600;
 }
 
-p {
+h1, p, #title {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -38,26 +38,30 @@ header:hover {
     transition: 500ms;
 }
 
-#menu .nav .nav-item a,
+#menu .navbar-nav .nav-item a,
 a {
     color: white;
 }
+
 
 #menu .nav-item a:hover,
 #brand:hover,
 a:hover {
     color: #dea1ec !important;
+    transition: 500ms;
 }
 
 #menu .nav-item a:hover {
     border-bottom: 2px solid #ef9377;
     padding-bottom: 3px;
+    transition: 500ms;
 }
 
 /* ---------------------- DL Button */
 
 #header-nav #dl-cv:hover {
     background-color: #dea1ec;
+    transition: 500ms;
 }
 
 /* ---------------------- Main header */

@@ -16,14 +16,49 @@
 
 <body>
     <header>
-        <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div id="header-nav" class="container-fluid bg-dark d-flex align-items-center pt-4 pb-2">
+
+                <a id="brand-link" class="navbar-brand" href="index.html">
+                    <h1 id="brand">MM.</h1>
+                </a>
+
+                <button id="menu-toggler-button" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menu" aria-controls="menu" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="menu" class="collapse navbar-collapse">
+                    <ul class="navbar-nav me-auto mt-4 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <a href="assets/docs/matt.manning-cv.pdf">
+                            <button id="dl-cv" class="btn btn-outline-light" type="download">Download CV</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- <div class="container-fluid">
             <div id="header-nav" class="row bg-dark text-light d-flex align-items-center pt-4 pb-4">
                 <div class="col-md-3">
                     <a id="brand-link" href="index.html">
                         <h1 id="brand">MM.</h1>
                     </a>
                 </div>
-                <div id="menu" class="col-md-6">
                     <ul class="nav justify-content-evenly">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
@@ -39,22 +74,18 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-3 d-flex justify-content-end">
-                    <a href="assets/docs/matt.manning-cv.pdf">
-                        <button id="dl-cv" class="btn btn-outline-light" type="download">Download CV</button>
-                    </a>
-                </div>
+                
             </div>
-        </div>
+        </div> -->
     </header>
 
     <!-- Header Image and Title -->
 
     <div id="hero-head"
         class="container-fluid d-flex flex-column justify-content-lg-evenly flex-xl-row justify-content-xl-between">
-        <div id="title" class="row col-xl-4 mt-3 mt-lg-5">
+        <div class="row col-xl-4 mt-3 mt-lg-5">
             <div class="col">
-                <h2>Matt Manning.</h2>
+                <h2 id="title">Matt Manning.</h2>
             </div>
         </div>
         <div id="info" class="row justify-content-evenly col-xl-8 mb-lg-5 mt-xl-5">
