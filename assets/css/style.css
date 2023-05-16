@@ -9,8 +9,9 @@ h5,
 h6,
 .personal-info-item .key p {
     font-family: 'Roboto', sans-serif;;
-    font-weight: 600;
+    font-weight: 400;
 }
+
 
 h1, p, #title {
     font-family: 'Montserrat', sans-serif;
