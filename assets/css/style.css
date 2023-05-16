@@ -6,7 +6,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.personal-info-item .key p {
     font-family: 'Roboto', sans-serif;;
     font-weight: 600;
 }
@@ -71,6 +72,7 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    border-bottom: 1px solid white;
 }
 
 #title {
@@ -90,7 +92,41 @@ a:hover {
     transition: 500ms;
 }
 
+/* ---------------------- Personal Info */
+
+.personal-info-item .key p {
+    margin: 0;
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    margin-bottom: 5px;
+}
+
+.personal-info-item .value {
+    display: inline-block;
+}
+
+/* ---------------------- Tech Skills */
+
+.progress .progress-bar {
+    background-color: #ef9377;
+}
+
+.progress-type {
+    padding: 2px 20px 2px 10px;
+}
+
 /* ---------------------- Footer */
+
+footer {
+    border-top: 1px solid white;
+}
+
+footer:hover {
+    border-top: 1px solid #ef9377;
+    transition: 500ms;
+}
 
 .footer-icons {
     font-size: 1.5em;
