@@ -39,7 +39,7 @@ header {
 }
 
 header:hover {
-    border-bottom: 1px solid #ef9377;
+    border-bottom: 1px solid #d18ee8;
     transition: 500ms;
 }
 
@@ -52,20 +52,25 @@ a {
 #menu .nav-item a:hover,
 #brand:hover,
 a:hover {
-    color: #dea1ec !important;
+    color: #ef9377;
     transition: 500ms;
 }
 
 #menu .nav-item a:hover {
-    border-bottom: 2px solid #ef9377;
+    border-bottom: 2px solid whitesmoke;
     padding-bottom: 3px;
     transition: 500ms;
 }
 
 /* ---------------------- DL Button */
 
+#dl-cv {
+    border: 2px solid whitesmoke;
+}
+
 #header-nav #dl-cv:hover {
-    background-color: #dea1ec;
+    background-color: #ef9377;
+    border-color: black;
     transition: 500ms;
 }
 
@@ -95,7 +100,7 @@ a:hover {
 
 #info>div:hover,
 #showcase .card:hover {
-    border: 2px solid #ef9377;
+    border: 2px solid #d18ee8;
     transition: 500ms;
 }
 
@@ -186,6 +191,17 @@ a:hover {
     object-fit: cover;
 }
 
+.card a {
+    background-color: #212529;
+    border: 2px solid #212529
+}
+
+.card a:hover {
+    background-color: #ef9377;
+    color: #212529;
+    border-color: #212529;
+}
+
 /* ---------------------- Footer */
 
 footer {
@@ -193,7 +209,7 @@ footer {
 }
 
 footer:hover {
-    border-top: 1px solid #ef9377;
+    border-top: 1px solid #d18ee8;
     transition: 500ms;
 }
 
