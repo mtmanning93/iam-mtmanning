@@ -13,7 +13,6 @@ h6,
     font-weight: 400;
 }
 
-
 h1,
 p,
 #title {
@@ -85,7 +84,8 @@ a:hover {
 }
 
 #title,
-#showcase-heading {
+#showcase-heading,
+#form-heading {
     color: #ef9377;
     display: flex;
 }
@@ -200,6 +200,23 @@ a:hover {
     background-color: #ef9377;
     color: #212529;
     border-color: #212529;
+}
+
+
+/* ---------------------- Contact */
+
+.required {
+    color: #ef9377;
+}
+
+#contact-form form input,
+#contact-form form textarea {
+    border: 1px solid #212529;
+}
+
+.form-control:focus {
+    /* box-shadow: 0 0 0 0.2rem rgba(239, 147, 119, 0.5); */
+    box-shadow: 0 0 0 0.2rem rgba(209, 142, 232, 0.7);
 }
 
 /* ---------------------- Footer */
