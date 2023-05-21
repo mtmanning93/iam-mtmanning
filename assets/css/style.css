@@ -77,7 +77,7 @@ a:hover,
 /* ---------------------- Main header */
 
 #hero-head {
-    background-image: url('/assets/images/pano.jpg');
+    background-image: url('../images/pano.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -201,7 +201,7 @@ a:hover,
 /* ---------------------- Showcase */
 
 #showcase {
-    background-image: url('/assets/images/glacier.jpg');
+    background-image: url('../images/glacier.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -238,7 +238,7 @@ a:hover,
 }
 
 .form-control:focus {
-    box-shadow: 0 0 0 0.2rem rgba(69, 129, 142, 0.5)
+    box-shadow: 0 0 0 0.2rem rgba(69, 129, 142, 0.5);
 }
 
 #contact-form button {
