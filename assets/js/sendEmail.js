@@ -1,3 +1,5 @@
+const old_html = document.getElementById("inner-form-html");
+
 function sendMail(contactForm) {
     emailjs.send("gmailJS", "online-cv-contact-form", {
         "from_name": contactForm.name.value,
@@ -23,7 +25,10 @@ function sendConfirmation() {
     formWrapper.innerHTML = `
         <h2>Request sent!</h2> <br> <p>Thanks ${sender}, 
         I look forward to your new idea and working together.</p> <br>
-        <button class="btn btn-primary">Send New Request</button>`;
-    formWrapper.style = "text-align: center";
+        <button class="btn btn-primary" onclick="resetForm()">Send New Request</button>`;
+    formWrapper.style = "text-align: center; margin: 20px 0;";
+}
 
+function resetForm() {
+    document.getElementById("contact-form").innerHTML = old_html.innerHTML;
 }
