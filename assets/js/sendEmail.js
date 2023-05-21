@@ -9,13 +9,21 @@ function sendMail(contactForm) {
         .then(
             function (response) {
                 console.log('SUCCESS!', response);
+                sendConfirmation();
             }, function (error) {
                 console.log('FAILED...', error);
             });
 
-    formValidation();
+    return false;
 }
 
-function formValidation() {
-    document.getElementById("contact-form").innerHTML = "<h2>Your request has been sent, I will reply as soon as possible.<br>I look forward to working together!</h2>";
+function sendConfirmation() {
+    const formWrapper = document.getElementById("contact-form");
+    let sender = document.getElementById("floatingInput").value;
+    formWrapper.innerHTML = `
+        <h2>Request sent!</h2> <br> <p>Thanks ${sender}, 
+        I look forward to your new idea and working together.</p> <br>
+        <button class="btn btn-primary">Send New Request</button>`;
+    formWrapper.style = "text-align: center";
+
 }
