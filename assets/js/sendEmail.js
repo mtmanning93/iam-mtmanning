@@ -12,4 +12,10 @@ function sendMail(contactForm) {
             }, function (error) {
                 console.log('FAILED...', error);
             });
+
+    formValidation();
+}
+
+function formValidation() {
+    document.getElementById("contact-form").innerHTML = "<h2>Your request has been sent, I will reply as soon as possible.<br>I look forward to working together!</h2>";
 }
