@@ -38,7 +38,7 @@ header {
 }
 
 header:hover {
-    border-bottom: 1px solid #d18ee8;
+    border-bottom: 1px solid #45818e;
     transition: 500ms;
 }
 
@@ -50,7 +50,8 @@ a {
 
 #menu .nav-item a:hover,
 #brand:hover,
-a:hover {
+a:hover,
+.offcanvas a:hover {
     color: #ef9377;
     transition: 500ms;
 }
@@ -100,7 +101,7 @@ a:hover {
 
 #info>div:hover,
 #showcase .card:hover {
-    border: 2px solid #d18ee8;
+    border: 2px solid #45818e;
     transition: 500ms;
 }
 
@@ -121,6 +122,27 @@ a:hover {
 
 #bio {
     font-weight: 700;
+}
+
+.personal-info-button {
+    border: 2px solid whitesmoke;
+    background-color: #212529;
+    color: whitesmoke;
+}
+
+.personal-info-button:hover {
+    background-color: #ef9377;
+    color: black;
+    border: 2px solid black;
+}
+
+.offcanvas h3 {
+    color: #ef9377;
+}
+
+.offcanvas a {
+    color: #212529;
+    text-decoration: none;
 }
 
 /* ---------------------- Tech Skills */
@@ -216,8 +238,7 @@ a:hover {
 }
 
 .form-control:focus {
-    /* box-shadow: 0 0 0 0.2rem rgba(239, 147, 119, 0.5); */
-    box-shadow: 0 0 0 0.2rem rgba(209, 142, 232, 0.7);
+    box-shadow: 0 0 0 0.2rem rgba(69, 129, 142, 0.5)
 }
 
 #contact-form button {
@@ -233,7 +254,7 @@ footer {
 }
 
 footer:hover {
-    border-top: 1px solid #d18ee8;
+    border-top: 1px solid #45818e;
     transition: 500ms;
 }
 
