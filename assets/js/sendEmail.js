@@ -26,7 +26,7 @@ function sendConfirmation() {
         <h2>Request sent!</h2> <br> <p>Thanks ${sender}, 
         I look forward to your new idea and working together.</p> <br>
         <button class="btn btn-primary" onclick="resetForm()">Send New Request</button>`;
-    formWrapper.style = "text-align: center; margin: 20px 0;";
+    formWrapper.style = "text-align: center; padding: 20px 0;";
 }
 
 function resetForm() {
