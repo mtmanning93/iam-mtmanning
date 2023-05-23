@@ -132,13 +132,15 @@ a:hover,
     font-weight: 700;
 }
 
-.personal-info-button {
+.personal-info-button,
+#gh-api-button {
     border: 2px solid whitesmoke;
     background-color: #212529;
     color: whitesmoke;
 }
 
-.personal-info-button:hover {
+.personal-info-button:hover,
+#gh-api-button:hover {
     background-color: #ef9377;
     color: black;
     border: 2px solid black;
@@ -233,6 +235,42 @@ a:hover,
     border-color: #212529;
 }
 
+/* ---------------------- GitHub API */
+
+.modal-header h1 {
+    color: #ef9377;
+}
+
+#form-heading {
+    color: #212529;
+}
+
+#gh-username-link>a {
+    color: #ef9377;
+}
+
+.repo-list ul li a {
+    text-decoration: none;
+    color: #ef9377;
+}
+
+.modal-content {
+    border: 2px solid #212529;
+}
+
+.modal-content .btn-primary {
+    background-color: #212529;
+    color: whitesmoke;
+    border: none;
+    border-top: 2px solid #212529;
+    border-radius: 0;
+}
+
+.modal-content button:hover {
+    background-color: #ef9377;
+    color: #212529;
+    transition: 500ms;
+}
 
 /* ---------------------- Contact */
 

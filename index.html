@@ -489,15 +489,47 @@
 
         <!-- Github API -->
 
-        <div class="row">
-            <div class="center-form">
+        <div class="row pb-3 justify-content-center">
+            <div class="col-10 col-sm-6 col-md-4">
 
-                <input type="text" name="github-username" id="github-username" value="mtmanning93"
-                    oninput="fetchGitHubInformation()" />
-                <div id="github-user-data"></div>
-                <div id="github-repo-data"></div>
+                <button id="gh-api-button" type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                    See more of my work
+                </button>
+
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-2" id="staticBackdropLabel">See more of my work.</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="center-form">
+                                    <h4 id="form-heading" class="text-center mt-2 mt-lg-3 mb-3">
+                                        Use GitHub to search for usernames and show all visible repos
+                                    </h4>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text" id="basic-addon1"><i
+                                                class="fa-solid fa-magnifying-glass"></i></span>
+                                        <input type="text" name="github-username" id="github-username"
+                                            value="mtmanning93" class="form-control" placeholder="Username"
+                                            aria-label="Username" aria-describedby="basic-addon1"
+                                            oninput="fetchGitHubInformation()">
+                                    </div>
+                                    <div id="github-user-data"></div>
+                                    <div id="github-repo-data"></div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-primary mt-3" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+
     </section>
 
     <!-- Contact -->
@@ -535,8 +567,8 @@
                         <label for="floatingTextarea2"><span class="required">* </span>Tell me about your project/
                             idea</label>
                     </div>
-                    <div class="col-12 d-flex justify-content-md-center mb-3">
-                        <button class="btn btn-primary w-25" type="submit">
+                    <div class="col-10 col-sm-6 col-md-4 w-100 d-flex justify-content-md-center mb-3">
+                        <button class="btn btn-primary" type="submit">
                             Send Request
                         </button>
                     </div>
