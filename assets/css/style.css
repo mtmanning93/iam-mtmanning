@@ -23,10 +23,6 @@ p,
     min-height: 75vh;
 }
 
-.vh-100 {
-    min-height: 100vh;
-}
-
 /* ---------------------- Logo */
 
 #brand {
