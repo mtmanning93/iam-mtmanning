@@ -30,14 +30,14 @@ An online portfolio for Matt Manning, Junior Software Developer, created using t
     - [Contact & EmailJS API](#contact--emailjs-api)
     - [Footer](#footer)
 2. [Future Implementations](#future-implementations)
-3. [Testing]()
-    - [Local]()
-      - [Bugs]()
-      - [Validation]()
-      - [Lightouse]()
-    - [Remote]()
-5. [Deployment]()
-6. [Credits]()
+3. [Testing](#testing)
+    - [Local](#local)
+      - [Validation](#validation)
+      - [Lightouse](#lighthouse)
+    - [Remote](#remote)
+    - [Bugs](#bugs)
+5. [Deployment](#deployment)
+6. [Credits](#credits)
 
 ## Features
 
@@ -119,3 +119,37 @@ An online portfolio for Matt Manning, Junior Software Developer, created using t
   ![Footer](./assets/images/screenshots/footer.png)
 
 ## Future Implementations
+
+In the future the site would develop a different format with different pages for each nav link due to the increase in collaborations, projects and requests. Another chnage could be a slideshow style gallery in place of the cars for the showcases.
+
+In the near future the background image of the title header would be changed to a suitable clear image of the owner whilst maintaining the black and white style.
+
+## Testing
+
+- ### Local
+
+  - #### Validation
+
+  - #### Lighthouse
+
+- ### Remote
+
+- ### Bugs
+
+During the testing phase I found that the form wouldnt reset to the same size as before when clicking the 'send new request' button after sending an initial request. This was fixed by altering a variable within the `assets/js/sendEmail.js` file to the outer elements `.innerHTML`. 
+
+## Deployment
+
+The site was deployed using GitHub Pages in the following 7 steps:
+
+ 1. In the GitHub repository navigate to the `settings` tab.
+ 2. Within the settings tab find the `pages` section in the left menu.
+ 3. From here scroll down to `build and deployment` section
+ 4. In the section select:
+    - source: `deploy from a branch`
+    - branch: `main`
+ 5. Click `save`.
+ 6. After a few minutes refresh the page. This leaves the link to the deployed site in a notification box at the top of the settings/pages tab.
+ 7. Finally click `visit site`.
+
+## Credits
