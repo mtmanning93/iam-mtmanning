@@ -15,6 +15,7 @@ An online portfolio for Matt Manning, Junior Software Developer, created using t
       - [Logo](#logo)
       - [Nav](#nav)
       - [Download Button](#download-button)
+      - [Intro](#header-intro)
     - [About]()
       - [Personal Info]()
       - [Technical Skills]()
@@ -41,18 +42,24 @@ An online portfolio for Matt Manning, Junior Software Developer, created using t
 
 To create a simply design the site owners initials 'MM.' were used as the logo, creating a brand like persona from the beginning. The font used is Monterrat as it gives adequate spacing to the text. The logo is also a link to the home page, and, when hovered turns from white to the light orange used site white for clickable and important messages.
 
-![logo]()
+![logo](/assets/images/screenshots/logo.png)
 
 - #### Nav
 
 Directly next to the logo is the site nav bar. It is simply with just 4 links and also uses a hover effect to allert the user to which link they are clicking. As the site is a single page the links simply scroll to the relavant sections of the page.
 
-![navigation]()
+![navigation](/assets/images/screenshots/navigation.png)
 
 - #### Download Button
 
 A dropdown 'Download CV' button positioned top right of the entire site enables the user to gain printable copies of cv and testimonial documents. The button uses a style which is carried throughout the site in order to provide the user with feeback that they are about to interact with the site.
 
-![download button]()
+![download button](/assets/images/screenshots/download.png)
+
+- #### Header Intro
+
+The first section of the site contains the title 'Junior Full Stack Software Developer' enabling users to see directly the occupation. Within the sectio are 3 cards which detail a short introduction to Matt. These concise snippets of information would help grab the users attention initially entising them to continue reading, discovering more. When hovered the border changes to a teal for some light user interaction this is used site wide over certain elements of importance such as the navbar and footer also.
+
+![title and intro](/assets/images/screenshots/cards.png)
 
 ### About
