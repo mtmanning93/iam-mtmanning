@@ -18,12 +18,13 @@ An online portfolio for Matt Manning, Junior Software Developer, created using t
       - [Intro](#header-intro)
     - [Profile](#profile)
       - [Personal Info](#personal-info)
-      - [Technical Skills]()
-      - [History]()
-    - [Showcase]()
-      - [Show Cards]()
-      - [GitHub API]()
-    - [Contact]()
+      - [Technical Skills](#technical-skills)
+      - [History](#history)
+    - [Showcase](#showcase)
+      - [Show Cards](#show-cards)
+      - [GitHub API](#github-api)
+    - [Contact & EmailJS API](#contact--emailjs-api)
+    - [Footer](#footer)
 2. [Future Implementations]()
 3. [Testing]()
     - [Local]()
@@ -80,3 +81,35 @@ Technical skills are split into two sections 'frontend' and 'backend' both of wh
 - #### History
 
 In the history section there are two timeline visuals for education and employment again with the respective icons and brief descriptions of each point on the timeline.
+
+![history timelines of education and emplyment]()
+
+### Showcase
+
+- #### Show Cards
+
+For the showcase section seperate cards were used to provide images and brief description of the project and skills used in the project. Under this are buttons which link to the live site and the repo of each project.
+
+![showcase, show cards]()
+
+- #### GitHub API
+
+Underneath the show cards is a button to 'See more of my work'. When clicked this button opens a modal with the Github API inside. Its default search is set to 'mtmanning93' showing more repos of the site owner, however, this can be used to search the entirity of GitHub and display the followers, following and repos of this user.
+
+![GitHub Api modal with search function]()
+
+### Contact & EmailJS API
+
+After the showcase section comes the contact form which enables users to directly contact the owner with their key information and ideas. The form uses the reuire attribute to force the user into entering name, email and comment, and if they have it the GitHub username and LinkedIn url. Allowing the owner to view the users work and profile before replying.
+
+![contact/ request form]()
+
+The form is wired up to the [EmailJS API](https://www.emailjs.com/). Meaning the user can send a request directly to the owner, while the site owner can recieve all necessary information to reply or review the users profiles. Once a request is sent the user recieves a confirmation messageon the site personalised with their name input and ability to send a new request.
+
+![Request sent confirmation]()
+
+### Footer
+
+Colored the same as the navbar the footer contains another 'download cv' link to a pdf and social links. All links interact when hovered, changing color to the familiar orange which a user knows is for clicking.
+
+![Footer]()
