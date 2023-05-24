@@ -1,4 +1,4 @@
-const old_html = document.getElementById("inner-form-html");
+const old_html = document.getElementById("contact-form").innerHTML;
 
 function sendMail(contactForm) {
     emailjs.send("gmailJS", "online-cv-contact-form", {
@@ -23,12 +23,17 @@ function sendConfirmation() {
     const formWrapper = document.getElementById("contact-form");
     let sender = document.getElementById("floatingInput").value;
     formWrapper.innerHTML = `
-        <h2>Request sent!</h2> <br> <p>Thanks ${sender}, 
-        I look forward to your new idea and working together.</p> <br>
+        <div class="col-12 col-lg-10 col-xl-8">
+        <h2>Request sent!</h2>
+        <br>
+        <p>Thanks ${sender}, 
+        I look forward to your new idea and working together.
+        </p> 
+        <br>
         <button class="btn btn-primary" onclick="resetForm()">Send New Request</button>`;
     formWrapper.style = "text-align: center; padding: 20px 0;";
 }
 
 function resetForm() {
-    document.getElementById("contact-form").innerHTML = old_html.innerHTML;
+    document.getElementById("contact-form").innerHTML = old_html;
 }
