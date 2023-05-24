@@ -16,8 +16,8 @@ An online portfolio for Matt Manning, Junior Software Developer, created using t
       - [Nav](#nav)
       - [Download Button](#download-button)
       - [Intro](#header-intro)
-    - [About]()
-      - [Personal Info]()
+    - [Profile](#profile)
+      - [Personal Info](#personal-info)
       - [Technical Skills]()
       - [History]()
     - [Showcase]()
@@ -62,4 +62,21 @@ The first section of the site contains the title 'Junior Full Stack Software Dev
 
 ![title and intro](/assets/images/screenshots/cards.png)
 
-### About
+### Profile
+
+- #### Personal Info
+
+The personal information section is contained in a side section with dark background to help seperate information for the user. Within this section key inofrmation can be found as well as buttons which open up extra sidebars to show information regarding less important topics, regarding interests and a previous project which show key soft skills.
+
+![personal information section]()
+![personal information slide out sections]()
+
+- #### Technical Skills
+
+Technical skills are split into two sections 'frontend' and 'backend' both of which have their own corresponding icon for even more clarity to the user. Beneath these are some progress bars to visualise current competence in different programming languages.
+
+![technical skills with progress bars]()
+
+- #### History
+
+In the history section there are two timeline visuals for education and employment again with the respective icons and brief descriptions of each point on the timeline.
