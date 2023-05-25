@@ -35,6 +35,7 @@ An online portfolio for Matt Manning, Junior Software Developer, created using t
       - [Validation](#validation)
       - [Lightouse](#lighthouse)
     - [Remote](#remote)
+    - [User](#user)
     - [Bugs](#bugs)
 5. [Deployment](#deployment)
 6. [Credits](#credits)
@@ -128,15 +129,43 @@ In the near future the background image of the title header would be changed to 
 
 - ### Local
 
+  Local testing was used throughout the project to test for responsivity and to validate that API's were correctly wired up. Also cross browser testing was done locally.
+
   - #### Validation
 
   - #### Lighthouse
 
 - ### Remote
 
+  Remote testing was carried out also to test responsivity, cross device capabilities and file paths. These tests were carried out on the following devices using the link to the live site:
+    - Apple MacBook Pro 
+    - AOC Monitor 27"
+    - Samsung Galaxy s21
+    - Apple iPhone X
+
+- ### User
+
+  - User tests were performed on 2 subjects, the subjects were asked to complete tasks such as:
+    1. Navigate to the contact form.
+    2. Find and download a printable version of the CV document.
+    3. What is the last employment of the owner?
+
+  - Following this users were asked to describe the design of the page in 3 words. These words were:
+    - User 1:
+      1. Simple
+      2. Stylish
+      3. Current
+      
+    - User 2:
+      1. Precise
+      2. Small
+      3. 'Designy'
+
+  - These findings showed the single page site conveyed the goal message of the site.
+
 - ### Bugs
 
-During the testing phase I found that the form wouldnt reset to the same size as before when clicking the 'send new request' button after sending an initial request. This was fixed by altering a variable within the `assets/js/sendEmail.js` file to the outer elements `.innerHTML`. 
+During the testing phase I found that the form would not reset to the same size as before when clicking the 'send new request' button after sending an initial request. This was fixed by altering a variable within the `assets/js/sendEmail.js` file to the outer elements `.innerHTML`. 
 
 ## Deployment
 
@@ -153,3 +182,16 @@ The site was deployed using GitHub Pages in the following 7 steps:
  7. Finally click `visit site`.
 
 ## Credits
+
+- ### Bootstrap 5.2.3
+
+  The main styling and layout was created using [Bootstrap 5](#). Elements such as modals, navs, dropdowns, cards and slide out sidebars were taken from Bootstraps documentation then styled accordingly.
+
+- ### GitHub API
+
+  The API was wired up with the help of a Code Institute Tutorial.
+
+- ### EmailJS
+
+  The contact form was wired up to [EmailJS]() using the EmailJS documentation.
+
