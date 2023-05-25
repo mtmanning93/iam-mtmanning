@@ -185,7 +185,7 @@ The site was deployed using GitHub Pages in the following 7 steps:
 
 - ### Bootstrap 5.2.3
 
-  The main styling and layout was created using [Bootstrap 5](#). Elements such as modals, navs, dropdowns, cards and slide out sidebars were taken from Bootstraps documentation then styled accordingly.
+  The main styling and layout was created using [Bootstrap 5](https://getbootstrap.com/docs/5.2/getting-started/introduction/). Elements such as modals, navs, dropdowns, cards and slide out sidebars were taken from Bootstraps documentation then styled accordingly.
 
 - ### GitHub API
 
@@ -193,5 +193,5 @@ The site was deployed using GitHub Pages in the following 7 steps:
 
 - ### EmailJS
 
-  The contact form was wired up to [EmailJS]() using the EmailJS documentation.
+  The contact form was wired up to [EmailJS](https://www.emailjs.com/) using the EmailJS documentation.
 
