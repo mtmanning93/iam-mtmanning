@@ -206,6 +206,12 @@ a:hover,
 
 /* ---------------------- Showcase */
 
+.carousel-indicators,
+.carousel-control-next,
+.carousel-control-prev {
+    position: relative;
+}
+
 #showcase {
     background-image: url('../images/glacier.jpg');
     background-repeat: no-repeat;
