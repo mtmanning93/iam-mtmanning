@@ -225,6 +225,15 @@ a:hover,
     object-fit: cover;
 }
 
+.single-slide-title {
+    border-bottom: 1px solid #000000;
+}
+
+.slide-img {
+    object-fit: cover;
+    opacity: 80%;
+}
+
 .card a {
     background-color: #212529;
     border: 2px solid #212529
@@ -326,6 +335,15 @@ footer a {
     .card-img-top {
         height: 40vh;
     }
+
+    .slide-img {
+        width: 100%;
+        height: 60%;
+    }
+
+    .single-slide-card {
+        height: 785px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -333,12 +351,24 @@ footer a {
     .card-img-top {
         height: 50vh;
     }
+
+    .slide-img {
+        width: 60%;
+    }
+
+    .single-slide-card {
+        height: 385px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .card-img-top {
         height: 25vw;
+    }
+
+    .single-slide-card {
+        height: 422px;
     }
 }
 
