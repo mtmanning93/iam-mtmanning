@@ -124,7 +124,7 @@ a:hover,
     display: inline-block;
 }
 
-#bio {
+.bio {
     font-weight: 700;
 }
 
