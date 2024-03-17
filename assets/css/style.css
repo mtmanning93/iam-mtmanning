@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700;900&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700;900&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap");
 
 /* ---------------------- Utils */
 
@@ -8,374 +8,394 @@ h4,
 h5,
 h6,
 .personal-info-item .key p {
-    font-family: 'Roboto', sans-serif;
-    ;
-    font-weight: 400;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
 }
 
 h1,
 p,
 #title {
-    font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 }
 
 .vh-75 {
-    min-height: 75vh;
+	min-height: 75vh;
+}
+
+/* ---------------------- Landing */
+
+#landing {
+    position: fixed;
+    z-index: 1;
+	height: 100vh;
+    width: 100vw;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#cv {
+    position: relative;
+}
+
+#name {
+	font-size: 4rem;
+    font-weight: 600;
+    color: #faebd7;
 }
 
 /* ---------------------- Logo */
 
 #brand {
-    font-weight: 600;
-    font-size: 3em;
+	font-weight: 600;
+	font-size: 3em;
 }
 
 #brand-link {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 /* ---------------------- Menu */
 
 header {
-    border-bottom: 1px solid white;
+	border-bottom: 1px solid white;
 }
 
 header:hover {
-    border-bottom: 1px solid #45818e;
-    transition: 500ms;
+	border-bottom: 1px solid #45818e;
+	transition: 500ms;
 }
 
 #menu .navbar-nav .nav-item a,
 a {
-    color: white;
+	color: white;
 }
-
 
 #menu .nav-item a:hover,
 #brand:hover,
 a:hover,
 .offcanvas a:hover {
-    color: #ef9377;
-    transition: 500ms;
+	color: #ef9377;
+	transition: 500ms;
 }
 
 #menu .nav-item a:hover {
-    border-bottom: 2px solid whitesmoke;
-    padding-bottom: 3px;
-    transition: 500ms;
+	border-bottom: 2px solid whitesmoke;
+	padding-bottom: 3px;
+	transition: 500ms;
 }
 
 /* ---------------------- DL Button */
 
 #dl-cv {
-    border: 2px solid whitesmoke;
+	border: 2px solid whitesmoke;
 }
 
 #header-nav #dl-cv:hover {
-    background-color: #ef9377;
-    border-color: black;
-    transition: 500ms;
+	background-color: #ef9377;
+	border-color: black;
+	transition: 500ms;
 }
 
 /* ---------------------- Main header */
 
 #hero-head {
-    background-image: url('../images/pano.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    border-bottom: 1px solid #212529;
+	background-image: url("../images/pano.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	border-bottom: 1px solid #212529;
 }
 
 #title,
 #showcase-heading,
 #form-heading {
-    color: #ef9377;
-    display: flex;
+	color: #ef9377;
+	display: flex;
 }
 
 /* ---------------------- Info Cards */
 
-#info>div,
+#info > div,
 #showcase .card {
-    border: 2px solid black;
-    border-radius: 5px;
+	border: 2px solid black;
+	border-radius: 5px;
 }
 
-#info>div:hover,
+#info > div:hover,
 #showcase .card:hover {
-    border: 2px solid #45818e;
-    transition: 500ms;
+	border: 2px solid #45818e;
+	transition: 500ms;
 }
 
 /* ---------------------- Personal Info */
 
 .personal-info-item .key p {
-    margin: 0;
-    font-weight: 700;
+	margin: 0;
+	font-weight: 700;
 }
 
 .personal-info-item .value {
-    margin-bottom: 5px;
+	margin-bottom: 5px;
 }
 
 .personal-info-item .value {
-    display: inline-block;
+	display: inline-block;
 }
 
 .bio {
-    font-weight: 700;
+	font-weight: 700;
 }
 
 .personal-info-button,
 #gh-api-button {
-    border: 2px solid whitesmoke;
-    background-color: #212529;
-    color: whitesmoke;
+	border: 2px solid whitesmoke;
+	background-color: #212529;
+	color: whitesmoke;
 }
 
 .personal-info-button:hover,
 #gh-api-button:hover {
-    background-color: #ef9377;
-    color: black;
-    border: 2px solid black;
+	background-color: #ef9377;
+	color: black;
+	border: 2px solid black;
 }
 
 .offcanvas h3 {
-    color: #ef9377;
+	color: #ef9377;
 }
 
 .offcanvas a {
-    color: #212529;
-    text-decoration: none;
+	color: #212529;
+	text-decoration: none;
 }
 
 /* ---------------------- Tech Skills */
 
 .progress .progress-bar {
-    background-color: #ef9377;
+	background-color: #ef9377;
 }
 
 .progress-type {
-    padding: 2px 20px 2px 10px;
+	padding: 2px 20px 2px 10px;
 }
 
 /* ---------------------- Employment */
 
 .timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #212529;
-    border-left: 1px solid #ef9377;
+	padding: 4em 2em 0em 2em;
+	position: relative;
+	color: #212529;
+	border-left: 1px solid #ef9377;
 }
 
 .timeline-item p {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 .timeline-item::before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: .8em;
-    padding: 0;
-    margin: 0;
+	content: attr(data-dates);
+	position: absolute;
+	left: 2.5em;
+	top: 3em;
+	display: block;
+	font-family: "Montserrat", sans-serif;
+	font-size: 0.8em;
+	padding: 0;
+	margin: 0;
 }
 
 .timeline-item::after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #ef9377;
+	width: 12px;
+	height: 12px;
+	display: block;
+	top: 2.4em;
+	position: absolute;
+	left: -6px;
+	border-radius: 12px;
+	content: "";
+	background: #ef9377;
 }
 
 .history-items {
-    margin-bottom: 30px;
+	margin-bottom: 30px;
 }
-
 
 /* ---------------------- Showcase */
 
 .carousel-indicators,
 .carousel-control-next,
 .carousel-control-prev {
-    position: relative;
+	position: relative;
 }
 
 #showcase {
-    background-image: url('../images/glacier.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+	background-image: url("../images/glacier.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
 }
 
 .card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
+	width: 100%;
+	height: 15vw;
+	object-fit: cover;
 }
 
 .single-slide-title {
-    border-bottom: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 }
 
 .slide-img {
-    object-fit: cover;
-    opacity: 80%;
+	object-fit: cover;
+	opacity: 80%;
 }
 
 .card a {
-    background-color: #212529;
-    border: 2px solid #212529
+	background-color: #212529;
+	border: 2px solid #212529;
 }
 
 .card a:hover,
 #contact-form button:hover {
-    background-color: #ef9377;
-    color: #212529;
-    border-color: #212529;
+	background-color: #ef9377;
+	color: #212529;
+	border-color: #212529;
 }
 
 /* ---------------------- GitHub API */
 
 .modal-header h1 {
-    color: #ef9377;
+	color: #ef9377;
 }
 
 #form-heading {
-    color: #212529;
+	color: #212529;
 }
 
-#gh-username-link>a {
-    color: #ef9377;
+#gh-username-link > a {
+	color: #ef9377;
 }
 
 .repo-list ul li a {
-    text-decoration: none;
-    color: #ef9377;
+	text-decoration: none;
+	color: #ef9377;
 }
 
 .modal-content {
-    border: 2px solid #212529;
+	border: 2px solid #212529;
 }
 
 .modal-content .btn-primary {
-    background-color: #212529;
-    color: whitesmoke;
-    border: none;
-    border-top: 2px solid #212529;
-    border-radius: 0;
+	background-color: #212529;
+	color: whitesmoke;
+	border: none;
+	border-top: 2px solid #212529;
+	border-radius: 0;
 }
 
 .modal-content button:hover {
-    background-color: #ef9377;
-    color: #212529;
-    transition: 500ms;
+	background-color: #ef9377;
+	color: #212529;
+	transition: 500ms;
 }
 
 /* ---------------------- Contact */
 
 #form-heading {
-    color: #ef9377;
+	color: #ef9377;
 }
 
 .required {
-    color: #ef9377;
+	color: #ef9377;
 }
 
 #contact-form form input,
 #contact-form form textarea {
-    border: 1px solid #212529;
+	border: 1px solid #212529;
 }
 
 .form-control:focus {
-    box-shadow: 0 0 0 0.2rem rgba(69, 129, 142, 0.5);
+	box-shadow: 0 0 0 0.2rem rgba(69, 129, 142, 0.5);
 }
 
 #contact-form button {
-    background-color: white;
-    color: #212529;
-    border: 2px solid #212529
+	background-color: white;
+	color: #212529;
+	border: 2px solid #212529;
 }
 
 /* ---------------------- Footer */
 
 footer {
-    border-top: 1px solid white;
+	border-top: 1px solid white;
 }
 
 footer:hover {
-    border-top: 1px solid #45818e;
-    transition: 500ms;
+	border-top: 1px solid #45818e;
+	transition: 500ms;
 }
 
 .footer-icons {
-    font-size: 1.5em;
-    color: white;
+	font-size: 1.5em;
+	color: white;
 }
 
 footer a {
-    margin: 0 5px;
+	margin: 0 5px;
 }
 
 /* ---------------------- Media Queries */
 
 /* Tiny devices (200px and up) */
 @media (min-width: 200px) {
-    .card-img-top {
-        height: 40vh;
-    }
+	.card-img-top {
+		height: 40vh;
+	}
 
-    .slide-img {
-        width: 100%;
-        height: 60%;
-    }
+	.slide-img {
+		width: 100%;
+		height: 60%;
+	}
 
-    .single-slide-card {
-        height: 785px;
-    }
+	.single-slide-card {
+		height: 785px;
+	}
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .card-img-top {
-        height: 50vh;
-    }
+	.card-img-top {
+		height: 50vh;
+	}
 
-    .slide-img {
-        width: 60%;
-        height: 100%;
-    }
+	.slide-img {
+		width: 60%;
+		height: 100%;
+	}
 
-    .single-slide-card {
-        height: 385px;
-    }
+	.single-slide-card {
+		height: 385px;
+	}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .card-img-top {
-        height: 25vw;
-    }
+	.card-img-top {
+		height: 25vw;
+	}
 
-    .single-slide-card {
-        height: 422px;
-    }
+	.single-slide-card {
+		height: 422px;
+	}
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .card-img-top {
-        height: 50%;
-    }
+	.card-img-top {
+		height: 50%;
+	}
 }
