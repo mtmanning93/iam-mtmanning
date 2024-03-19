@@ -23,26 +23,49 @@ p,
 }
 
 /* ---------------------- Landing */
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
 
 #landing {
-    position: fixed;
-    z-index: 1;
-	height: 100vh;
-    width: 100vw;
-	display: flex;
+    background-color: #212529;
+    color: antiquewhite;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
-#cv {
-    position: relative;
+h1,
+h2 {
+    margin: 0;
 }
 
-#name {
-	font-size: 4rem;
-    font-weight: 600;
-    color: #faebd7;
+#firstName,
+#lastName,
+#i,
+#am {
+    display: flex;
+}
+
+.letter {
+    width: 100%;
+    text-align: center;
+}
+
+#landing-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#scroll-img {
+    margin: auto;
 }
 
 /* ---------------------- Logo */
