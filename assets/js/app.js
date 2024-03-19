@@ -44,12 +44,13 @@ document.addEventListener("DOMContentLoaded", function() {
             start: "top top",
             end: "bottom center",
             scrub: true,
+            markers: true,
             onUpdate: function(self) {
                 // If #name opacity is almost 0, scroll away the landing section to reveal the CV
                 if (self.progress >= 0.95 && !animationsCompleted) {
                     animationsCompleted = true; // Set to true to prevent multiple calls
                     gsap.to("#landing", { y: "-100%", duration: 2 });
-                    gsap.to("#cv", { opacity: 1, duration: 0 });
+                    gsap.set("#cv", { opacity: 1, top: 0, duration: 0 });
                     resetScroll(); // Call resetScroll after animations complete
                 }
             }
@@ -58,6 +59,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function resetScroll() {
         // Reset the scroll position to the top of the page
-        window.scrollTo({ top: 0 });
+        // window.scrollTo({ top: 0 });
+        gsap.set("#cv", { top: 0 });
     }
 });
