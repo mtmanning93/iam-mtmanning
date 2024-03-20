@@ -51,11 +51,17 @@ h2 {
 #i,
 #am {
     display: flex;
+    font-weight: 600;
 }
 
 .letter {
     width: 100%;
     text-align: center;
+}
+
+.letter h1 {
+    font-weight: 600;
+    font-size: 3em;
 }
 
 #landing-name {
@@ -196,6 +202,10 @@ a:hover,
 }
 
 /* ---------------------- Tech Skills */
+
+.progress {
+    overflow: hidden;
+}
 
 .progress .progress-bar {
 	background-color: #ef9377;

@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
     gsap.registerPlugin(ScrollTrigger);
     gsap.registerPlugin(ScrollToPlugin);
 
+    // Landing page animation
+
     window.onload = function() {
         // Refresh ScrollTriggers when the page is loaded or refreshed
         ScrollTrigger.refresh();
@@ -58,4 +60,18 @@ document.addEventListener("DOMContentLoaded", function() {
             ease: "power1.out"
         });
     }
+
+    // Loading bars animation
+
+    gsap.utils.toArray('.progress-bar').forEach((bar) => {
+        gsap.fromTo(bar, { width: '0%' }, {
+            width: bar.getAttribute('style').match(/width:\s*(\d+)/)[1] + '%',
+            duration: 1,
+            scrollTrigger: {
+                trigger: bar,
+                start: 'top 95%',
+                toggleActions: "restart pause resune reset"
+            }
+        });
+    });
 });
