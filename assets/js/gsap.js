@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     gsap.registerPlugin(ScrollTrigger);
-    gsap.registerPlugin(PixiPlugin)
+    gsap.registerPlugin(ScrollToPlugin);
 
     window.onload = function() {
         // Refresh ScrollTriggers when the page is loaded or refreshed
@@ -46,5 +46,16 @@ document.addEventListener("DOMContentLoaded", function() {
                 .to("#m2", { y: m3Height, x: m2Width, duration: 3 }, "+=2")
                 .to("#dot", { x: -dotMoveDistance, duration: 3, ease: "power1.out" }, "+=0.5")
                 .to(["#m3", "#m2", "#dot"], { opacity: 0, duration: 3 }, "+=0.5")
-                .to("#scroll-img", { opacity: 0, y: 100, duration: 6, ease: "none" }, "+=2")      
+                .to("#scroll-img", { opacity: 0, y: 100, duration: 6, ease: "none", onComplete: scrollToCV }, "+=2")
+                  
+    function scrollToCV() {
+        gsap.to(window, {
+            duration: 0,
+            scrollTo: {
+            y: "#cv",
+            offsetY: 0
+            },
+            ease: "power1.out"
+        });
+    }
 });
