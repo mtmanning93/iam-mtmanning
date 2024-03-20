@@ -2,6 +2,11 @@ document.addEventListener("DOMContentLoaded", function() {
     gsap.registerPlugin(ScrollTrigger);
     gsap.registerPlugin(PixiPlugin)
 
+    window.onload = function() {
+        // Refresh ScrollTriggers when the page is loaded or refreshed
+        ScrollTrigger.refresh();
+    };
+
     // Timeline for the landing element animation
     var landingTimeline = gsap.timeline({
         scrollTrigger: {
@@ -9,9 +14,9 @@ document.addEventListener("DOMContentLoaded", function() {
             start: "top top",
             end: "bottom -100px",
             // markers: true,
-            // lazy: false,
             scrub: 1,
             pin: true,
+            toggleActions: "play none reverse none"
         }
     });
 
@@ -40,6 +45,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 .to(["#i1", "#a1"], { opacity: 0, x: 30, duration: 3 }, "+=2") 
                 .to("#m2", { y: m3Height, x: m2Width, duration: 3 }, "+=2")
                 .to("#dot", { x: -dotMoveDistance, duration: 3, ease: "power1.out" }, "+=0.5")
-                .to(["#m3", "#m2", "#dot", "#scroll-img"], { opacity: 0, duration: 3 }, "+=0.5")
-                // .to(["#m3", "#m2", "#dot"], { color: "#ef9377", duration: 3 }, "+=0.5")
+                .to(["#m3", "#m2", "#dot"], { opacity: 0, duration: 3 }, "+=0.5")
+                .to("#scroll-img", { opacity: 0, y: 100, duration: 6, ease: "none" }, "+=2")            
 });
