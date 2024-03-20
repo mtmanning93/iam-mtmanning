@@ -36,15 +36,15 @@ document.addEventListener("DOMContentLoaded", function() {
     const dotMoveDistance = (gWidth + n3Width + i2Width + n2Width + n1Width + a3Width) - m2Width;
 
     // Animation for each letter within the timeline
-    landingTimeline.to("#g", { opacity: 0, x: 30, duration: 3 })
-                .to("#n3", { opacity: 0, x: 30, duration: 3 }, "+=2") 
-                .to("#i2", { opacity: 0, x: 30, duration: 3 }, "+=2") 
-                .to(["#n2", "#t2"], { opacity: 0, x: 30, duration: 3 }, "+=2") 
-                .to(["#n1", "#t1"], { opacity: 0, x: 30, duration: 3 }, "+=2") 
-                .to(["#a3", "#a2", "#m1"], { opacity: 0, x: 30, duration: 3 }, "+=2") 
-                .to(["#i1", "#a1"], { opacity: 0, x: 30, duration: 3 }, "+=2") 
+    landingTimeline.to("#g", { opacity: 0, x: 200, duration: 3 })
+                .to("#n3", { opacity: 0, x: 200, duration: 3 }, "+=2") 
+                .to("#i2", { opacity: 0, x: 200, duration: 3 }, "+=2") 
+                .to(["#n2", "#t2"], { opacity: 0, x: 200, duration: 3 }, "+=2") 
+                .to(["#n1", "#t1"], { opacity: 0, x: 200, duration: 3 }, "+=2") 
+                .to(["#a3", "#a2", "#m1"], { opacity: 0, x: 200, duration: 3 }, "+=2") 
+                .to(["#i1", "#a1"], { opacity: 0, x: 200, duration: 3 }, "+=2") 
                 .to("#m2", { y: m3Height, x: m2Width, duration: 3 }, "+=2")
                 .to("#dot", { x: -dotMoveDistance, duration: 3, ease: "power1.out" }, "+=0.5")
                 .to(["#m3", "#m2", "#dot"], { opacity: 0, duration: 3 }, "+=0.5")
-                .to("#scroll-img", { opacity: 0, y: 100, duration: 6, ease: "none" }, "+=2")            
+                .to("#scroll-img", { opacity: 0, y: 100, duration: 6, ease: "none" }, "+=2")      
 });
