@@ -425,10 +425,3 @@ footer a {
 		height: 422px;
 	}
 }
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-	.card-img-top {
-		height: 50%;
-	}
-}
