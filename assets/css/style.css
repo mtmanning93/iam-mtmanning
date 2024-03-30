@@ -110,12 +110,6 @@ a:hover,
 	transition: 500ms;
 }
 
-#menu .nav-item a:hover {
-	border-bottom: 2px solid whitesmoke;
-	padding-bottom: 3px;
-	transition: 500ms;
-}
-
 /* ---------------------- DL Button */
 
 #dl-cv {
@@ -401,6 +395,12 @@ footer a {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    #menu .nav-item a:hover {
+        border-bottom: 2px solid whitesmoke;
+        padding-bottom: 3px;
+        transition: 500ms;
+    }
+
 	.card-img-top {
 		height: 50vh;
 	}
